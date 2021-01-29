@@ -4,6 +4,7 @@ import {ErrorMessage, Field, Form, Formik} from 'formik'
 import * as Yup from 'yup'
 import {Link, useHistory} from 'react-router-dom'
 import TwitterLogo from "../styles/assets/twitter-logo.png"
+import "../styles/login.css"
 
 const LOGIN_MUTATION = gql`
 mutation login($email: String!, $password: String!) {
@@ -60,10 +61,10 @@ function Login() {
             >
 
                 <Form>
-                    <Field name="email" type="text" placeholder="Email"></Field>
+                    <Field name="email" type="text" placeholder="Adres E-mail"></Field>
                     <ErrorMessage name="email" component={'div'} />
 
-                    <Field name="password" type="password" placeholder=" Password "></Field>
+                    <Field name="password" type="password" placeholder="Hasło"></Field>
                     <ErrorMessage name="password" component={'div'} />
 
                     <button type="submit" className="login-button" ><span>Zaloguj się</span></button>

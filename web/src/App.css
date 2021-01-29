@@ -4,9 +4,6 @@
   --accent: #E1E8ED;
 }
 
-@import "./styles/login.css";
-
-
 textarea {
   color: rgb(38, 50, 56);
   font-weight: 600;

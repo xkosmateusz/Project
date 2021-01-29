@@ -46,9 +46,9 @@ function App() {
             <Route path="/users">
               <Users/>
             </Route>
-            <Route path="/profile">
-              <Profile />
-            </Route>
+						<Route path="/profile">
+							<Profile />
+						</Route>
           </IsAuthenticated>
         </Switch>
       </Router>
