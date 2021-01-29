@@ -10,22 +10,53 @@ Janikowski Mateusz
 
 # Wykorzystane technologie: 
 
-Backend:
+* [Visual Studio Code](https://code.visualstudio.com/)
 
-Nodejs
+* [Nodejs](https://nodejs.org/en/)
 
-Graphql
+* [Graphql](https://graphql.org/)
 
-Prisma
+* [Prisma](https://www.prisma.io/)
 
-Postgres
+* [Postgres](https://www.postgresql.org/)
 
-Typescript
+* [Typescript](https://www.typescriptlang.org/)
 
-Frontend:
+* [React](https://pl.reactjs.org/)
 
-React
+* [Apollo-client](https://www.apollographql.com/docs/react/)
 
-Apollo-client
+# Uruchamianie:
 
-Typescript
+aby uruchomić backend należy wpisać komendę
+
+  ```	
+	cd server
+  npm run dev
+```
+
+następnie, że by uruchomić front end otwieramy kolejny terminal i wpisujemy
+
+  ```	
+	cd web
+  yarn start
+```
+
+# Funkcjonalności
+
+Aplikacja ma główną stronę, która włącza się nawet przy niepoprawnym kodzie http
+
+<img src="MP.png"/>
+
+Aplikacja ma podstawową obsługę błędów podczas rejestracji jak i logowania
+
+<img src="Z.png"/>
+
+<img src="R.png"/>
+
+<img src="O.png"/>
+
+Aplikacja po poprawnym logowaniu i rejestracji tworzy token który jest zapamiętywany
+
+<img src="A.png"/>
+
